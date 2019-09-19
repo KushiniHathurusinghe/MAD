@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mad.mad">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".RegistationActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+        <activity android:name=".UserActitivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ProfileActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ActivityEmail"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".LectLogin"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".LectRegister"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".LectActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".LectProfile"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".LectAssign"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ShowAssign"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SendAssign"
+            android:screenOrientation="portrait"/>
+
+
+    <activity android:name=".ChangePassword"
+        android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".LectChangePassword"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>
